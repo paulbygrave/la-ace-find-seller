@@ -26,6 +26,6 @@ kubectl create secret generic service-account-file \
     --dry-run -o yaml | kubectl apply -f -
 
 
-kubectl apply -f workload.yaml
+# kubectl apply -f workload.yaml
 
-kubectl apply -f service.yaml
+# kubectl apply -f service.yaml
